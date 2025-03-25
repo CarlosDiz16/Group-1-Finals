@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    a{
+      text-decoration: none;
+    }
+    body{
+      height: 260vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    @media (max-width: 1200px) {
+      body {
+        min-height: 90vh;
+      }
+    }
+
+    @media (max-width: 900px) {
+      body {
+        min-height: 80vh;
+      }
+    }
+
+    @media (max-width: 600px) {
+      body {
+        min-height: 70vh;
+      }
+    }
+  
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="logo.png" alt="Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="mission-vision.html">Mission and Vision</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="sport.html">Sports Complex</a></li>
+      </ul>
+      <div class="burger">&#9776;</div>
+    </nav>
+    <div class="ban-container">
+    <img src="main.jpg" alt="Banner" class="nav-bannerMV">
+      <div class="ban-word">
+        <p style="font-size: 10vw; color: white;">Reach out to us</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="top-img-1">
+
+    </div>
+    <div class="container2">
+    <div class="special-box">
+      <section>
+        <h6>Contact Us</h6>
+        <hr style="background-color: #004d00; border: none; height: 2px; margin-bottom: 20px;">
+        <p style="margin-bottom: 20px; font-size: 2.5vw;">Have question or inquiries? Reach out to us using the information below or fill out the contact form</p>
+    
+        <h6>Contact Details</h6>
+        <hr style="background-color: #004d00; border: none; height: 2px; margin-bottom: 20px;">
+        <ul style="font-size: 2.5vw; margin-bottom: 20px;">
+          <li style="text-decoration: underline;">Sports Dept - sports@feudiliman.edu.ph</li>
+          <li style="text-decoration: underline;">Accountancy - cab@feudiliman.edu.ph</li>
+          <li style="text-decoration: underline;">Registrar - registrar@feudiliman.edu.ph</li>
+          <li style="text-decoration: underline;">Admissions - admissions@feudiliman.edu.ph</li>
+        </ul>
+    
+        <h6>Contact Form</h6>
+<hr style="background-color: #004d00; border: none; height: 2px; margin-bottom: 20px;">
+
+<form class="contact-form">
+  <label style="font-size: 3vw;" for="name">Name:</label>
+  <input style="font-size: 3vw;" type="text" id="name" name="name" placeholder="Enter your name" required>
+
+  <label style="font-size: 3vw;" for="email">Email:</label>
+  <input style="font-size: 3vw;" type="email" id="email" name="email" placeholder="Enter your email" required>
+
+  <label style="font-size: 3vw;" for="message">Message:</label>
+  <textarea style="font-size: 3vw;" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+
+  <button style="font-size: 3vw;" type="submit">Send Message</button>
+</form>
+
+      </section>
+    </div>
+</main>
+  <script src="script.js"></script>
+  
+<footer>
+  <img src="logo.png" alt="logo2" class="footer-img">
+  <p style="font-size: 1vh; margin-bottom: 10px;">Sampaguita Avenue, Mapayapa Village III, Pasong Tamo, Quezon City 1101</p>
+  <p style="font-size: 1vh; font-weight: bold; margin-bottom: 10px;">0906 407 6850</p>
+  <p style="font-size: 1vh; margin-bottom: 10px;">&copy; 2025 FEU Diliman. All rights reserved.</p>
+</footer>
+
+<button id="backToTop">⬆</button>
+</body>
+</html>
